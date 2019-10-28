@@ -10,10 +10,8 @@ import org.springframework.ui.ModelMap;
 
 @Controller
 public class StudentController {
-	@RequestMapping(value = "/student", method = RequestMethod.GET)
-	public ModelAndView student() {
-		return new ModelAndView("student", "command", new Student());
-	}
+	
+/////added vinni commit
 
 	@RequestMapping(value = "/addStudent", method = RequestMethod.POST)
 	@ExceptionHandler({ SpringException.class })
