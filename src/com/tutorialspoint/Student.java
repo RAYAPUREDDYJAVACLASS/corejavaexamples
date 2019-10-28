@@ -1,13 +1,4 @@
-package com.tutorialspoint;
-//git commit line
-public class Student {
-	private Integer age;
-	private String name;
-	private Integer id;
-
-	public void setAge(Integer age) {
-		this.age = age;
-	}
+pac
 
 	public Integer getAge() {
 		return age;
